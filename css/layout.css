@@ -408,7 +408,6 @@ input:-moz-placeholder {
     font-size: 14px;
     line-height: 1.2;
     color: #333333;
-    font-weight: 300;
 }
 .header .info-mobile {
     display: none;

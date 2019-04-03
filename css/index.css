@@ -1,13 +1,17 @@
 .b-1-slider {
 	position: relative;
 }
+.b-1-slider .b-1-slide {
+	max-height: calc(100vh - 239px);
+}
 .b-1-slider .b-1-slide a img {
 	display: block;
-	max-width: 100%;	
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .b-2 .container {
-	padding-top: 90px;
+	padding-top: 50px;
 	padding-bottom: 40px;
 }
 .b-2 h2 {
@@ -515,6 +519,9 @@
 	}
 }
 @media screen and (max-width: 767px){
+	.b-1-slider .b-1-slide {
+		max-height: none;
+	}
 	.b-2 .filter, .b-2 .shop-info {
 		display: block;
 	}
